@@ -14,6 +14,7 @@ export class CounterOutputComponent implements OnInit {
 
   ngOnInit(): void {
     this.store.select('counter').subscribe(data=>{
+      console.log("hello from github")
       this.counter=data.counter
     })
   }
