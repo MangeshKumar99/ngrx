@@ -21,6 +21,7 @@ export class CounterButtonsComponent implements OnInit {
      //this.increment.emit()
      this.store.dispatch(increment())
      console.log("hello")
+     console.log("hello from git")
     }
    onDecrement(){
      //this.decrement.emit()
